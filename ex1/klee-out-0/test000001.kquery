@@ -1,0 +1,32 @@
+array a[36] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 0
+                 (And w32 (And w32 (And w32 (And w32 (And w32 (And w32 (And w32 (And w32 (And w32 (ZExt w32 (Eq false
+                                                                                                                (Eq 1
+                                                                                                                    (ReadLSB w32 0 a))))
+                                                                                                  1)
+                                                                                         (ZExt w32 (Eq false
+                                                                                                       (Eq 1
+                                                                                                           (ReadLSB w32 4 a)))))
+                                                                                (ZExt w32 (Eq false
+                                                                                              (Eq 1
+                                                                                                  (ReadLSB w32 8 a)))))
+                                                                       (ZExt w32 (Eq false
+                                                                                     (Eq 1
+                                                                                         (ReadLSB w32 12 a)))))
+                                                              (ZExt w32 (Eq false
+                                                                            (Eq 1
+                                                                                (ReadLSB w32 16 a)))))
+                                                     (ZExt w32 (Eq false
+                                                                   (Eq 1
+                                                                       (ReadLSB w32 20 a)))))
+                                            (ZExt w32 (Eq false
+                                                          (Eq 1
+                                                              (ReadLSB w32 24 a)))))
+                                   (ZExt w32 (Eq false
+                                                 (Eq 1
+                                                     (ReadLSB w32 28 a)))))
+                          (ZExt w32 (Eq false
+                                        (Eq 1
+                                            (ReadLSB w32 32 a)))))))]
+        false)

@@ -1,0 +1,11 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: /home/klee/klee_src/examples/ex1/qqq.c:21: ASSERTION FAIL: product == 0
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/klee/klee_src/examples/ex1/qqq.c:33: ASSERTION FAIL: n == target_sum
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/klee/klee_src/examples/ex1/qqq.c:42: ASSERTION FAIL: n == target_sum
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/klee/klee_src/examples/ex1/qqq.c:51: ASSERTION FAIL: n == target_sum
+KLEE: NOTE: now ignoring this error at this location
+KLEE: ERROR: /home/klee/klee_src/examples/ex1/qqq.c:57: ASSERTION FAIL: n == target_sum
+KLEE: NOTE: now ignoring this error at this location

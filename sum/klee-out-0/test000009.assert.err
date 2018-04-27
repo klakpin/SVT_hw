@@ -1,0 +1,7 @@
+Error: ASSERTION FAIL: sum == 110 * a + 2 * b + 110 * c
+File: /home/klee/klee_src/examples/sum/sum.c
+Line: 28
+assembly.ll line: 212
+Stack: 
+	#000000212 in print_all_combinations_and_sum (a, b, c) at /home/klee/klee_src/examples/sum/sum.c:28
+	#100000399 in main () at /home/klee/klee_src/examples/sum/sum.c:71

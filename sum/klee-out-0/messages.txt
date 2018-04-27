@@ -1,0 +1,3 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: /home/klee/klee_src/examples/sum/sum.c:28: ASSERTION FAIL: sum == 110 * a + 2 * b + 110 * c
+KLEE: NOTE: now ignoring this error at this location

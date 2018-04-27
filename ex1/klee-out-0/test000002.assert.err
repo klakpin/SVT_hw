@@ -1,0 +1,7 @@
+Error: ASSERTION FAIL: n == target_sum
+File: /home/klee/klee_src/examples/ex1/qqq.c
+Line: 33
+assembly.ll line: 145
+Stack: 
+	#000000145 in check_square (order=3, a=36236416) at /home/klee/klee_src/examples/ex1/qqq.c:33
+	#100000310 in main () at /home/klee/klee_src/examples/ex1/qqq.c:67
